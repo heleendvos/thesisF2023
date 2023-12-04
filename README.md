@@ -4,3 +4,4 @@ Next to this, you'll find the code for two obfuscation methods (word-to-number m
 After applying these obfuscation methods, the classifier is used to predict political leaning again, but now based on the obfuscated posts. The performance 
 of the classifier tells us something about the preservetion of the privacy of the authors. When the classifier has more trouble predicting the politcal leaning 
 of the authors after obfsucation, privacy is preserved. 
+In order to have efficient obfuscation, it is important to take semantic consistency into account. This semantic consistency is evaluated by the evaluation metrics METEOR and BLEU. 
